@@ -1,0 +1,56 @@
+nav{
+    display: flex;
+}
+
+nav div{
+    margin-left: auto;
+    margin-right:40px;
+}
+
+nav a{
+    flex-direction: column;
+    width: fit-content;
+    margin: 15px 5px;
+    padding-right: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+nav a:hover{
+    color: darkgoldenrod;
+}
+
+.navbar-brand{
+    margin:10px;
+    font-size:30px;
+}
+
+body{
+    margin:0px 20px;
+    background-color: burlywood;
+    color: saddlebrown;
+}
+
+form{
+    width: 100%;
+}
+form input{
+    width: 100%;
+    margin: 10px;
+}
+
+form textarea{
+    width: 100%;
+    margin:10px;
+
+}
+
+form #body{
+    height: 400px;
+}
+
+#submit{
+    width: fit-content;
+}

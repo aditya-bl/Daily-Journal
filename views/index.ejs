@@ -1,0 +1,10 @@
+<%- include('partials/header'); -%>
+    <h1>Welcome to my Blog Website</h1>
+    <p><%= content %></p>
+
+      <% for(i=0;i<Heading.length;i++) { %>
+        <h2><%= Heading[i] %></h2>
+        <p><%= Body[i].slice(0,101) %><a id='a<%= i %>' href="/blog/<%= lodash.kebabCase(Heading[i]) %>">read more</a> </p>
+      <% } %>
+      
+<%- include('partials/footer') -%>
